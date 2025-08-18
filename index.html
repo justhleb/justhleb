@@ -1538,9 +1538,19 @@
                         <div class="course-platform">Stepik</div>
                     </div>
                 </div>
+                
+                <!-- Новая карточка курса от ШАД -->
+                <div class="course-card">
+                    <div class="course-title">A/B week</div>
+                    <div class="course-platform-section">
+                        <div class="course-platform">ШАД</div>
+                        <div class="certificate-badge" onclick="showCertificate('abweek')">Сертификат</div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
+
 
     <!-- Certificate Modal -->
     <div id="certificateModal" class="certificate-modal">
@@ -1815,6 +1825,10 @@
                 'ml': {
                     title: 'Сертификат Машинное Обучение в Python',
                     path: 'certificates/ml-certificate.jpg'
+                },
+                'abweek': {
+                    title: 'Сертификат A/B week',   
+                    path: 'certificates/abweek-certificate.jpg'
                 }
             };
             
